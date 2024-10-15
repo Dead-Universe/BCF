@@ -1,0 +1,54 @@
+# Python编译文件
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv/
+.conda/
+
+# 编辑器和IDE配置
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 日志和数据库文件
+*.log
+*.sqlite3
+
+# 包管理器文件
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+*.whl
+
+# 单元测试覆盖率报告
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# 临时文件
+*.bak
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# 本地配置文件
+*.env
